@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigationView"
+        android:padding="16dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etNombre_hint"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:inputType="textPersonName"
+                android:importantForAccessibility="yes"
+                android:autofillHints="name" />  <!-- Autofill hint for name -->
+
+            <EditText
+                android:id="@+id/etApellidoPaterno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etApellidoPaterno_hint"
+                android:importantForAccessibility="yes"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:inputType="textPersonName"
+                android:autofillHints="familyName" /> <!-- Autofill hint for family name -->
+
+            <EditText
+                android:id="@+id/etApellidoMaterno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etApellidoMaterno_hint"
+                android:importantForAccessibility="yes"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:inputType="textPersonName"
+                android:autofillHints="familyName" />
+
+            <EditText
+                android:id="@+id/etFechaNacimiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etFechaNacimiento_hint"
+                android:inputType="textPersonName"
+                android:importantForAccessibility="yes"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:autofillHints="dateOfBirth" />
+
+            <EditText
+                android:id="@+id/etUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etUsuario_hint"
+                android:importantForAccessibility="yes"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:inputType="textEmailAddress"
+                android:autofillHints="username" />
+
+
+            <EditText
+                android:id="@+id/etContrasena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etContrasena_hint"
+                android:inputType="textPassword"
+                android:importantForAccessibility="yes"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:autofillHints="password" />  <!-- Autofill hint for password -->
+
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnRegistrar_text"
+                android:minHeight="48dp"
+                android:padding="12dp" />
+
+            <Button
+                android:id="@+id/btnRegresar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnRegresar_text"
+                android:minHeight="48dp"
+                android:padding="12dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+    <!-- Barra de navegación inferior -->
+
+</RelativeLayout>

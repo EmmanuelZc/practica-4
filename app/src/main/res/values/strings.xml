@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">practica6</string>
+    <string name="facebook_app_id">1415947699361186</string>
+    <string name="fb_login_protocol_scheme">fb1415947699361186</string>
+    <string name="facebook_client_token">cca431fd6046527cd0bd5fc17d2714ba</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="etNombre_hint">Nombre</string>
+    <string name="etApellidoPaterno_hint">Apellido Paterno</string>
+    <string name="etApellidoMaterno_hint">Apellido Materno</string>
+    <string name="etFechaNacimiento_hint">Fecha de Nacimiento (AAAA-MM-DD)</string>
+    <string name="etUsuario_hint">Usuario</string>
+    <string name="etContrasena_hint">Contraseña</string>
+    <string name="btnRegistrar_text">Registrar</string>
+    <string name="btnRegresar_text">Regresar</string>
+    <string name="nav_home_title">Inicio</string>
+    <string name="nav_search_title">Buscar</string>
+    <string name="nav_favorites_title">Favoritos</string>
+    <string name="add_to_favorites">Favoritos</string>
+</resources>
